@@ -8,6 +8,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -25,12 +27,6 @@ public class User {
     private String password;
     private String phoneNumber;
     private String city;
-    private int semester;
-
-    //private Careers career;
-    //private <List> courses;
-    //private History academicHistory;
-    //private float mean;
-    //private int credits;
-    //possible changes...
+    private Sex sex;
+    private Date birthday;
 }
