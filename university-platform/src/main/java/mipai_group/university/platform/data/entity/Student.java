@@ -2,6 +2,8 @@ package mipai_group.university.platform.data.entity;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,15 +16,20 @@ import java.util.List;
 @Entity
 @DiscriminatorValue("Student")
 public class Student extends User {
+
     private Long studentId;
+
     private Integer semester;
-    private String State; //class state
+
+    private State State;
+
     private float average;
+
     private Integer creditNumber;
-    //to identify relationship
+
+    @ManyToOne
     private Career career;
-    //to identify relationship
-    private List<String> courses; //class courses
 
-
+    @ManyToMany
+    private List<Course> courses;
 }

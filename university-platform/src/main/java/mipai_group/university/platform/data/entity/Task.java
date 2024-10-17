@@ -12,28 +12,25 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 @Data
-public class Course {
+public class Task {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String code;
-
-    private String name;
+    private String tittle;
 
     private String description;
 
-    private Integer credits;
+    @OneToOne
+    private List<Document> documentList;
 
     private Date startDate;
 
     private Date endDate;
 
-    @OneToOne
-    private Professor assignedTeacher;
-
     @ManyToOne
-    private List<Task> tasks;
+    private List<Question> questions;
+
 
 }
