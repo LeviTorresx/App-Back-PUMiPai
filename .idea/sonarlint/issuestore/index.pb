@@ -39,3 +39,13 @@ _university-platform/src/main/java/mipai_group/university/platform/data/entity/Q
 Yuniversity-platform/src/main/java/mipai_group/university/platform/data/entity/Option.java,4\8\488c0ce24e20bc5f8e9d8a2327bfeea1a322f479
 â
 Yuniversity-platform/src/main/java/mipai_group/university/platform/data/entity/Answer.java,1\8\18a1740159fee522b461f436e46673896ff6915d
+ç
+]university-platform/src/main/java/mipai_group/university/platform/service/StudentService.java,3\d\3d8a9115a537fd1e6fa518b51a342faf3b06d22a
+è
+_university-platform/src/main/java/mipai_group/university/platform/service/ProfessorService.java,6\3\63585dba0ba4fd5086c28f0a2e9d8db0464f397e
+å
+\university-platform/src/main/java/mipai_group/university/platform/service/CourseService.java,9\6\96ad2103068ea855e35ab4dd72bf24dd12a116ba
+å
+\university-platform/src/main/java/mipai_group/university/platform/service/CareerService.java,2\7\27492cd59cb3a689adbf677b80fae0f52227c393
+ó
+guniversity-platform/src/main/java/mipai_group/university/platform/data/repository/CourseRepository.java,b\5\b5dbec47f45e447e00e3c2d1a6a50aeb974b756a
